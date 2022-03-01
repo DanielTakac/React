@@ -1,3 +1,37 @@
 body{
     background-color: #b6b6b6;
+    font-family: "Roboto";
+}
+
+#header{
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -25px;
+    padding: 20px;
+}
+
+#header > h1{
+    text-align: left;
+    color: black;
+    margin-bottom: 35px;
+}
+
+#click-area-div{
+    padding: 200px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -25px;
+    background-color: rgb(10, 143, 219);
+}
+
+#click-header{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+#click-text{
+    text-align: center;
+    color: white;
 }
