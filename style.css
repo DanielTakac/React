@@ -35,3 +35,17 @@ body{
     text-align: center;
     color: white;
 }
+
+#footer{
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 160px;
+    margin-bottom: -10px;
+}
+
+#copyright{
+    color:rgb(53, 53, 53);
+    padding-left: 40px;
+    font-size: 18px;
+}
