@@ -1,5 +1,5 @@
 body{
-    background-color: #b6b6b6;
+    background-color: white;
     font-family: "Roboto";
 }
 
@@ -15,6 +15,7 @@ body{
     text-align: left;
     color: black;
     margin-bottom: 35px;
+    margin-left: 10px;
 }
 
 #click-area-div{
@@ -23,6 +24,13 @@ body{
     margin-right: -10px;
     margin-top: -25px;
     background-color: rgb(10, 143, 219);
+    /* Makes text unselectable */
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -webkit-touch-callout : none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 #click-header{
@@ -31,21 +39,25 @@ body{
     font-size: 70px;
 }
 
-#click-text{
-    text-align: center;
-    color: white;
-}
-
 #footer{
     background-color: white;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: 160px;
     margin-bottom: -10px;
+    white-space: nowrap;
 }
 
 #copyright{
     color:rgb(53, 53, 53);
     padding-left: 40px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+#github{
+    color:rgb(53, 53, 53);
+    float: right;
+    margin-right: 40px;
     font-size: 18px;
 }
