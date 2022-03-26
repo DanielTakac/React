@@ -24,7 +24,7 @@ clickAreaDiv.addEventListener("click", function(){
             let min = 3;
             let max = 6;
 
-            let rand = Math.floor(Math.random() * (max - min) + min); // The maximum in exclusive and the minimum in inclusive
+            let rand = Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
 
             setTimeout(function(){ CanClick(); }, rand * 1000);
 
